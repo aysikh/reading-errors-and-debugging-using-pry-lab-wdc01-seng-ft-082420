@@ -7,3 +7,8 @@ def snake_it_up(string)
     string
   end
 end
+
+# orginally it was a 10 + "s" + string
+# an integer cannot be combined with a string, 
+# which is why I thought you had to convert the integer into a string
+# this was not the case 
