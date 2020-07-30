@@ -15,3 +15,8 @@ def engage
   date = generate_star_date
   puts state_log(date)
 end
+
+# the code is asking that 'engage' should return that captain's log and crew greeting
+# but there was an error that said "date" was not defined
+# originally date was FIRST used in line 15 with puts state_log(date)
+# but the program does not know what 'date' is, thus switching lines 15 and 16
